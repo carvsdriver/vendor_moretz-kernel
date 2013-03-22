@@ -1,0 +1,7 @@
+#!/system/bin/sh
+#
+# Print startup info
+#
+
+echo "Starting up init.d scripts.";
+

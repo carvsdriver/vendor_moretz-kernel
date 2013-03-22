@@ -1,0 +1,21 @@
+#!/system/bin/sh
+#To be used with the gpu_control sysfs interface by CvD
+#This features is included in the Moretz 1.07.02 kernel.
+
+
+echo "Starting gpu_control"
+
+mount -o remount rw /
+
+# Max frequency valid values are:
+#0 - 320Mhz - default
+#1 - 300Mhz
+#2 - 266Mhz
+#3 - 228Mhz
+#4 - 200Mhz
+#5 - 177Mhz
+#6 - 27Mhz
+
+echo "0" > /sys/kernel/gpu_control/gpu_3d_freq_phase
+
+echo "GPU max frequency set."
