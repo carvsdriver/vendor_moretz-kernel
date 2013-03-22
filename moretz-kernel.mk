@@ -7,3 +7,4 @@ PRODUCT_COPY_FILES += \
     vendor/moretz-kernel/scripts/etc/init.d/02gpu_control:system/etc/init.d/02gpu_control \
     vendor/moretz-kernel/scripts/etc/init.d/07vaccum_sqlite:system/etc/init.d/07vaccum_sqlite \
     vendor/moretz-kernel/scripts/etc/init.d/10zipalign:system/etc/init.d/10zipalign \
+    vendor/moretz-kernel/scripts/etc/init.d/99complete:system/etc/init.d/99complete \
